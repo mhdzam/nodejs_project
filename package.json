@@ -4,7 +4,9 @@
   "description": "this is a new directory for git and nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mhdzam/nodejs_project/issues"
   },
-  "homepage": "https://github.com/mhdzam/nodejs_project#readme"
+  "homepage": "https://github.com/mhdzam/nodejs_project#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
